@@ -53,7 +53,7 @@ function z.terminal_color()
   vim.g.terminal_color_4 = z.blue
   vim.g.terminal_color_5 = z.violet
   vim.g.terminal_color_6 = z.cyan
-  vim.g.terminal_color_7 = z.bg1
+  vim.g.terminal_color_7 = z.fg
   vim.g.terminal_color_8 = z.brown
   vim.g.terminal_color_9 = z.red
   vim.g.terminal_color_10 = z.green
@@ -217,7 +217,7 @@ local plugin_syntax = {
   GitGutterChangeDelete = {fg=z.violet},
 
   GitSignsAdd = {fg=z.dark_green},
-  GitSignsChange = {fg=z.blue},
+  GitSignsChange = {fg=z.orange},
   GitSignsDelete = {fg=z.red},
   GitSignsAddNr = {fg=z.dark_green},
   GitSignsChangeNr = {fg=z.blue},
@@ -256,7 +256,7 @@ local plugin_syntax = {
   LspReferenceText = {bg=z.bg_highlight,bold = true},
   LspReferenceWrite = {bg=z.bg_highlight,bold = true},
 
-  CursorWord = {bg=z.base4,underline = true},
+  CursorWord = {bg=z.base4,underline = false},
 
   NvimTreeFolderName = {fg=z.blue},
   NvimTreeRootFolder = {fg=z.red,bold = true},
