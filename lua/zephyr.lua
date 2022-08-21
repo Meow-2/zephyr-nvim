@@ -13,7 +13,8 @@ local z = {
 	base7 = "#9ca0a4",
 	base8 = "#b1b1b1",
 
-	bg = "#262a33",
+	-- bg = "#262a33",
+	bg = "#2c2e34",
 	bg1 = "#504945",
 	bg_popup = "#3E4556",
 	bg_highlight = "#2E323C",
@@ -120,35 +121,77 @@ local syntax = {
 	Debug = { fg = z.orange },
 	debugBreakpoint = { fg = z.bg, bg = z.red },
 
-	Boolean = { fg = z.orange },
-	Number = { fg = z.brown },
-	Float = { fg = z.brown },
-	PreProc = { fg = z.violet },
-	PreCondit = { fg = z.violet },
-	Include = { fg = z.violet },
-	Define = { fg = z.violet },
-	Conditional = { fg = z.magenta },
-	Repeat = { fg = z.magenta },
-	Keyword = { fg = z.green },
-	Typedef = { fg = z.red },
-	Exception = { fg = z.red },
-	Statement = { fg = z.red },
-	Error = { fg = z.red },
-	StorageClass = { fg = z.orange },
-	Tag = { fg = z.orange },
-	Label = { fg = z.orange },
-	Structure = { fg = z.orange },
-	Operator = { fg = z.redwine },
-	Title = { fg = z.orange, bold = true },
-	Special = { fg = z.yellow },
-	SpecialChar = { fg = z.yellow },
-	Type = { fg = z.teal },
-	Function = { fg = z.yellow },
-	String = { fg = z.light_green },
-	Character = { fg = z.green },
-	Constant = { fg = z.cyan },
-	Macro = { fg = z.cyan },
-	Identifier = { fg = z.blue },
+	--       call sonokai#highlight('Type', s:palette.blue, s:palette.none, 'italic')
+	--   call sonokai#highlight('Structure', s:palette.blue, s:palette.none, 'italic')
+	--   call sonokai#highlight('StorageClass', s:palette.blue, s:palette.none, 'italic')
+	--   call sonokai#highlight('Identifier', s:palette.orange, s:palette.none, 'italic')
+	--   call sonokai#highlight('Constant', s:palette.orange, s:palette.none, 'italic')
+	--   call sonokai#highlight('PreProc', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('PreCondit', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Include', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Keyword', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Define', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Typedef', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Exception', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Conditional', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Repeat', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Statement', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Macro', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('Error', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Label', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('Special', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('SpecialChar', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('Boolean', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('String', s:palette.yellow, s:palette.none)
+	-- call sonokai#highlight('Character', s:palette.yellow, s:palette.none)
+	-- call sonokai#highlight('Number', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('Float', s:palette.purple, s:palette.none)
+	-- call sonokai#highlight('Function', s:palette.green, s:palette.none)
+	-- call sonokai#highlight('Operator', s:palette.red, s:palette.none)
+	-- call sonokai#highlight('Title', s:palette.red, s:palette.none, 'bold')
+	-- call sonokai#highlight('Tag', s:palette.orange, s:palette.none)
+	-- call sonokai#highlight('Delimiter', s:palette.fg, s:palette.none)
+	-- if s:configuration.disable_italic_comment
+	--   call sonokai#highlight('Comment', s:palette.grey, s:palette.none)
+	--   call sonokai#highlight('SpecialComment', s:palette.grey, s:palette.none)
+	--   call sonokai#highlight('Todo', s:palette.blue, s:palette.none)
+	-- else
+	--   call sonokai#highlight('Comment', s:palette.grey, s:palette.none, 'italic')
+	--   call sonokai#highlight('SpecialComment', s:palette.grey, s:palette.none, 'italic')
+	--   call sonokai#highlight('Todo', s:palette.blue, s:palette.none, 'italic')
+	-- endif
+	-- call sonokai#highlight('Ignore', s:palette.grey, s:palette.none)
+	-- call sonokai#highlight('Underlined', s:palette.none, s:palette.none, 'underline')
+
+	Boolean = { fg = "#b39df3" }, -- Boolean      = { fg = z.orange },
+	Number = { fg = "#b39df3" }, -- Number       = { fg = z.brown },
+	Float = { fg = "#b39df3" }, -- Float        = { fg = z.brown },
+	PreProc = { fg = "#f85e84" }, -- PreProc      = { fg = z.violet },
+	PreCondit = { fg = "#f85e84" }, -- PreCondit    = { fg = z.violet },
+	Include = { fg = "#f85e84" }, -- Include      = { fg = z.violet },
+	Define = { fg = "#f85e84" }, -- Define       = { fg = z.violet },
+	Conditional = { fg = "#f85e84" }, -- Conditional  = { fg = z.magenta },
+	Repeat = { fg = "#f85e84" }, -- Repeat       = { fg = z.magenta },
+	Keyword = { fg = "#f85e84" }, -- Keyword      = { fg = z.green },
+	Typedef = { fg = "#f85e84" }, -- Typedef      = { fg = z.red },
+	Exception = { fg = "#f85e84" }, -- Exception    = { fg = z.red },
+	Statement = { fg = "#f85e84" }, -- Statement    = { fg = z.red },
+	Error = { fg = "#f85e84" }, -- Error        = { fg = z.red },
+	StorageClass = { fg = "#76cce0" }, -- StorageClass = { fg = z.orange },
+	Tag = { fg = "#f39660" }, -- Tag          = { fg = z.orange },
+	Label = { fg = "#b39df3" }, -- Label        = { fg = z.orange },
+	Structure = { fg = "#76cce0" }, -- Structure    = { fg = z.orange },
+	Operator = { fg = "#f85e84" }, -- Operator     = { fg = z.redwine },
+	Title = { fg = "#f85e84" }, -- Title        = { fg = z.orange, bold   = true },
+	Special = { fg = "#b39df3" }, -- Special      = { fg = z.yellow },
+	SpecialChar = { fg = "#b39df3" }, -- SpecialChar  = { fg = z.yellow },
+	Type = { fg = "#76cce0" }, -- Type         = { fg = z.teal },
+	Function = { fg = "#9ed072" }, -- Function     = { fg = z.yellow },
+	String = { fg = "#e7c664" }, -- String       = { fg = z.light_green },
+	Character = { fg = "#e7c664" }, -- Character    = { fg = z.green },
+	Constant = { fg = "#f39660" }, -- Constant     = { fg = z.cyan },
+	Macro = { fg = "#b39df3" }, -- Macro        = { fg = z.cyan },
+	Identifier = { fg = "#f39660" }, -- Identifier   = { fg = z.blue },
 
 	Comment = { fg = z.base6, italic = true, cterm = { italic = true } },
 	SpecialComment = { fg = z.grey },
@@ -259,8 +302,8 @@ local plugin_syntax = {
 	CursorWord = { bg = z.base4, underline = false },
 
 	NvimTreeFolderName = { fg = z.blue },
-	NvimTreeRootFolder = { fg = z.red, bold = true },
-	NvimTreeSpecialFile = { fg = z.teal, bg = z.none },
+	NvimTreeRootFolder = { fg = z.teal, bold = true },
+	NvimTreeSpecialFile = { fg = z.orange, bg = z.none },
 	NvimTreeGitDirty = { fg = z.redwine },
 
 	TelescopeBorder = { fg = z.teal },
