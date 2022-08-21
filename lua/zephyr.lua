@@ -260,7 +260,7 @@ local plugin_syntax = {
 
 	NvimTreeFolderName = { fg = z.blue },
 	NvimTreeRootFolder = { fg = z.red, bold = true },
-	NvimTreeSpecialFile = { fg = z.fg, bg = z.none },
+	NvimTreeSpecialFile = { fg = z.teal, bg = z.none },
 	NvimTreeGitDirty = { fg = z.redwine },
 
 	TelescopeBorder = { fg = z.teal },
