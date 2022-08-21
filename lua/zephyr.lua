@@ -150,7 +150,7 @@ local syntax = {
 	Macro = { fg = z.cyan },
 	Identifier = { fg = z.blue },
 
-	Comment = { fg = z.base6 },
+	Comment = { fg = z.base6, italic = true, cterm = { italic = true } },
 	SpecialComment = { fg = z.grey },
 	Todo = { fg = z.violet },
 	Delimiter = { fg = z.fg },
