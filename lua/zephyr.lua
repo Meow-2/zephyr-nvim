@@ -76,7 +76,7 @@ local syntax = {
 	Normal = { fg = z.fg, bg = z.bg },
 	Terminal = { fg = z.fg, bg = z.bg },
 	SignColumn = { fg = z.fg, bg = z.bg },
-	FoldColumn = { fg = z.fg_alt, bg = z.black },
+	FoldColumn = { fg = z.fg_alt, bg = z.bg },
 	VertSplit = { fg = z.black, bg = z.bg },
 	Folded = { fg = z.grey, bg = z.bg_highlight },
 	EndOfBuffer = { fg = z.bg, bg = z.none },
@@ -91,7 +91,7 @@ local syntax = {
 	CursorIM = { fg = z.none, bg = z.none, reverse = true },
 	CursorColumn = { fg = z.none, bg = z.bg_highlight },
 	CursorLine = { fg = z.none, bg = z.bg_highlight },
-	LineNr = { fg = z.base4 },
+	LineNr = { fg = z.status_grey },
 	qfLineNr = { fg = z.cyan },
 	CursorLineNr = { fg = z.blue },
 	DiffAdd = { fg = z.black, bg = z.dark_green },
@@ -307,6 +307,9 @@ local plugin_syntax = {
 	CmpItemKindKeyWord = { fg = z.red },
 	CmpItemKindText = { fg = z.light_green },
 	CmpItemKindModule = { fg = z.cyan },
+
+	-- IndentBlanklineContextChar
+	IndentBlanklineContextChar = { fg = z.bg_visual },
 }
 
 local async_load_plugin
