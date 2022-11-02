@@ -170,6 +170,20 @@ local syntax = {
 	DashboardCenter = { fg = z.teal },
 	DashboardCenterIcon = { fg = z.blue },
 	DashboardFooter = { fg = z.yellow, bold = true },
+
+	TSURI = { fg = z.fg },
+	TSNamespace = { fg = z.orange },
+	TSMethod = { fg = z.magenta },
+	TSField = { fg = z.cyan },
+	TSConstructor = { fg = z.blue },
+	TSType = { fg = z.green },
+	TSFunction = { fg = z.magenta },
+	TSString = { fg = z.green },
+	TSNumber = { fg = z.green },
+	TSBoolean = { fg = z.orange },
+	TSConstant = { fg = z.cyan },
+	TSOperator = { fg = z.green },
+	TSParameter = { fg = z.green },
 }
 
 local plugin_syntax = {
