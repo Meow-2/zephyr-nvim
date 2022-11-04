@@ -329,8 +329,9 @@ local plugin_syntax = {
 	CursorWord = { bg = z.base4, underline = false },
 
 	NvimTreeFolderName = { fg = z.dark_blue },
-	NvimTreeRootFolder = { fg = z.red, bold = true },
-	NvimTreeSpecialFile = { fg = z.teal, bg = z.none, bold = true },
+	NvimTreeFolderIcon = { fg = z.dark_blue },
+	NvimTreeRootFolder = { fg = z.red },
+	NvimTreeSpecialFile = { fg = z.teal, bg = z.none },
 	NvimTreeGitDirty = { fg = z.redwine },
 
 	TelescopeBorder = { fg = z.teal },
