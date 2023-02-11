@@ -209,6 +209,12 @@ local syntax = {
 	DashboardCenter = { fg = z.teal },
 	DashboardCenterIcon = { fg = z.blue },
 	DashboardFooter = { fg = z.yellow, bold = true },
+	DashboardProjectTitle = { fg = z.blue },
+	DashboardProjectTitleIcon = { fg = z.teal },
+	DashboardProjectIcon = { fg = z.yellow },
+	DashboardMruTitle = { fg = z.blue },
+	DashboardMruIcon = { fg = z.teal },
+	-- DashboardFiles = {},
 
 	TSURI = { fg = z.fg },
 	TSNamespace = { fg = z.orange },
