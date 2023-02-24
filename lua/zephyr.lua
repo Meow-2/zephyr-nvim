@@ -174,7 +174,7 @@ local syntax = {
 	-- various variable names
 	["@variable"] = { fg = "#40afef" },
 	--built-in variable names (e.g. `this`)
-	["@variable.builtin"] = { fg = "#e06c75" },
+	["@variable.builtin"] = { fg = "#c678dd" },
 	Constant = { fg = "#56b6c2" },
 	["@constant.builtin"] = { link = "Constant" },
 	-- constants defined by the preprocessor
@@ -192,7 +192,7 @@ local syntax = {
 	--type qualifiers (e.g. `const`)
 	["@type.qualifier"] = { fg = "#40afef" },
 	--modifiers that affect storage in memory or life-time like C `static`
-	["@storageclass"] = { fg = "#e06c75" },
+	["@storageclass"] = { fg = "#c678dd" },
 	["@field"] = { fg = "#f7bb3b" },
 	["@property"] = { fg = "#f7bb3b" },
 	-- ["@field"] = { fg = "#e5c07b" },
@@ -201,20 +201,20 @@ local syntax = {
 	-- ["@property"] = { fg = "#abb2bf" },
 	--------------------------------------------------------
 	---@Keywords
-	Keyword = { fg = "#40afef" },
-	["@keyword.function"] = { fg = "#e06c75" },
-	["@keyword.return"] = { fg = "#e06c75" },
+	Keyword = { fg = "#e06c75" },
+	["@keyword.function"] = { fg = "#c678dd" },
+	["@keyword.return"] = { fg = "#c678dd" },
 	["@keyword.operator"] = { link = "Operator" },
 	--if else
-	Conditional = { fg = "#e06c75" },
+	Conditional = { fg = "#c678dd" },
 	--for while
-	Repeat = { fg = "#e06c75" },
+	Repeat = { fg = "#c678dd" },
 	-- Debug = { fg = z.red },
 	Label = { fg = "#40afef" },
 	Include = { link = "PreProc" },
-	Exception = { fg = "#e06c75" },
+	Exception = { fg = "#c678dd" },
 	Statement = { fg = "#f0945d" },
-	PreProc = { fg = "#e06c75" },
+	PreProc = { fg = "#c678dd" },
 	--------------------------------------------------------
 	---@Functions
 	Function = { fg = "#98c379" },
@@ -231,12 +231,12 @@ local syntax = {
 	--------------------------------------------------------
 	---@Literals
 	String = { fg = "#1abc9c" },
-	Number = { fg = "#c678dd" },
-	Boolean = { fg = "#c678dd" },
+	Number = { fg = "#e06c75" },
+	Boolean = { fg = "#e06c75" },
 	Float = { link = "Number" },
 	--
 	Define = { link = "PreProc" },
-	Operator = { fg = "#e06c75" },
+	Operator = { fg = "#c678dd" },
 	-- Comment = { fg = z.base01 },
 	--------------------------------------------------------
 	---@punctuation
