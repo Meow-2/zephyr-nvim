@@ -416,6 +416,9 @@ local plugin_syntax = {
 
 	-- IndentBlanklineContextChar
 	IndentBlanklineContextChar = { fg = z.bg_visual },
+
+	-- TreesitterContext = { fg = z.base8, bg = z.bg_highlight },
+	TreesitterContextLineNumber = { fg = z.red },
 }
 
 local async_load_plugin
