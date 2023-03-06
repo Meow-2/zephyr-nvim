@@ -419,6 +419,11 @@ local plugin_syntax = {
 
 	-- TreesitterContext = { fg = z.base8, bg = z.bg_highlight },
 	TreesitterContextLineNumber = { fg = z.red },
+
+	TSRainbowYellow = { fg = "#d19a66" },
+	TSRainbowBlue = { fg = "#00afaf" },
+	TSRainbowGreen = { fg = "#98c379" },
+	-- TSRainbowViolet = { fg = "#c678dd" },
 }
 
 local async_load_plugin
