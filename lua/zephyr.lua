@@ -427,6 +427,12 @@ local plugin_syntax = {
 	TSRainbowBlue = { fg = "#00afaf" },
 	TSRainbowGreen = { fg = "#98c379" },
 	-- TSRainbowViolet = { fg = "#c678dd" },
+	HopNextKey = { fg = "#ff007c", bold = true },
+	HopNextKey1 = { fg = "#00dfff", bold = true },
+	HopNextKey2 = { fg = "#2b8db3" },
+	HopUnmatched = { fg = "#666666" },
+	HopCursor = { link = "Cursor" },
+	HopPreview = { link = "IncSearch" },
 }
 
 local async_load_plugin
