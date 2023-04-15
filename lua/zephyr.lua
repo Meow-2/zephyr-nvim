@@ -92,7 +92,7 @@ local syntax = {
 	lCursor = { fg = z.none, bg = z.none, reverse = true },
 	CursorIM = { fg = z.none, bg = z.none, reverse = true },
 	CursorColumn = { fg = z.none, bg = z.bg_highlight },
-	CursorLine = { fg = z.none, bg = z.bg_highlight },
+	CursorLine = { fg = z.none, bg = z.base4 },
 	LineNr = { fg = z.status_grey },
 	qfLineNr = { fg = z.cyan },
 	CursorLineNr = { fg = z.blue },
