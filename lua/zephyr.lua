@@ -433,6 +433,8 @@ local plugin_syntax = {
 	HopUnmatched = { fg = "#666666" },
 	HopCursor = { link = "Cursor" },
 	HopPreview = { link = "IncSearch" },
+
+	FlashLabel = { fg = z.black, bg = z.cyan },
 }
 
 local async_load_plugin
