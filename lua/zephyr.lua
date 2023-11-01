@@ -249,7 +249,7 @@ local syntax = {
 	Todo = { fg = "#d70087" },
 	Delimiter = { fg = "#d75f5f" },
 	Ignore = { fg = z.none },
-	Underlined = { fg = "#5f5faf", underline = true },
+	Underlined = { underline = true },
 
 	DashboardShortCut = { fg = z.magenta },
 	DashboardHeader = { fg = z.orange },
